@@ -132,6 +132,8 @@ public class TelaInicial extends javax.swing.JFrame {
     private void btnProdutosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnProdutosActionPerformed
         TelaProdutos cadastroProd = new TelaProdutos();
         cadastroProd.setVisible(true);
+//        setAlwaysOnTop(true);
+//        setExtendedState(MAXIMIZED_BOTH);
     }//GEN-LAST:event_btnProdutosActionPerformed
 
     /**

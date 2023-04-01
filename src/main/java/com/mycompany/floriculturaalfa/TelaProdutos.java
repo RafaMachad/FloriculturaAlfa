@@ -14,6 +14,7 @@ public class TelaProdutos extends javax.swing.JFrame {
      * Creates new form TelaProdutos
      */
     public TelaProdutos() {
+        setExtendedState(MAXIMIZED_BOTH);
         initComponents();
     }
 
@@ -29,6 +30,9 @@ public class TelaProdutos extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+        setAlwaysOnTop(true);
+        setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        setResizable(false);
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -91,6 +95,7 @@ public class TelaProdutos extends javax.swing.JFrame {
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
+                
                 new TelaProdutos().setVisible(true);
             }
         });
